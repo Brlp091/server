@@ -14,6 +14,10 @@ router.get("/seguranca", (req, res)=>{
 
 app.use(router)
 
-app.listen(process.env.PORT || 3333, ()=>{
+///app.listen(process.env.PORT || 3333, ()=>{
+    //console.log("servidor rodando")
+//})
+
+app.listen(3333, ()=>{
     console.log("servidor rodando")
 })
